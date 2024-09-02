@@ -12,9 +12,8 @@
 
 Steam Review aspect dataset is a dataset of Steam Review with 8 review aspects. This dataset contains 1100 English Steam reviews, split into 900 train and 200 test. This dataset was initially created to identify which aspects are mentioned in English reviews as part of [Analysis of 43 million English Steam Reviews](https://srec.ai/blog/analysis-43m-english-steam-reviews).
 
-# Table of contents
+## Table of contents
 
-- [Steam Review aspect dataset](#steam-review-aspect-dataset)
 - [Table of contents](#table-of-contents)
 - [Data collection and annotation](#data-collection-and-annotation)
 - [Data format](#data-format)
@@ -25,7 +24,7 @@ Steam Review aspect dataset is a dataset of Steam Review with 8 review aspects. 
 - [Appendix A - Statistic](#appendix-a---statistic)
 - [Appendix B - Full model benchmark](#appendix-b---full-model-benchmark)
 
-# Data collection and annotation
+## Data collection and annotation
 
 The source of the reviews comes from a snapshot of the SRec database, which was taken on 21 February 2024. SRec obtain all reviews for all games and mods using [API provided by Steam](https://partner.steamgames.com/doc/store/getreviews). To reduce bias when selecting reviews to be annotated, I chose reviews primarily based on these criteria,
 
@@ -51,11 +50,11 @@ There are 8 aspects to define review in this dataset. I am the only annotator fo
 
 Take note that few reviews contain language and content that some people may find offensive, discriminatory, or inappropriate. I **DO NOT** endorse, condone or promote any of such language and content.
 
-# Data format
+## Data format
 
 CSV, JSON and Apache Arrow file formats are provided for convenience's sake. You can check the notebook on `example` directory for a bare-minimum example of how to open those files. Both raw and cleaned review text are provided. Cleaned review text was preprocessed by stripping BBcode, reducing excessive whitespaces and reducing excessive newlines.
 
-# Model benchmark
+## Model benchmark
 
 Model benchmark on Steam Review aspect dataset split into 3 categories,
 
@@ -65,8 +64,7 @@ Model benchmark on Steam Review aspect dataset split into 3 categories,
 
 There are 15 models benchmarked, where few of the same base models are used multiple times using different methods. You can see Appendix B for the result and visit GitHub to see its source code.
 
-
-# Download
+## Download
 
 You can download Steam review aspect dataset from one of these sources,
 
@@ -74,7 +72,7 @@ You can download Steam review aspect dataset from one of these sources,
 * [Huggingface](https://huggingface.co/datasets/ilos-vigil/steam-review-aspect-dataset)
 * [Kaggle](https://www.kaggle.com/datasets/ilosvigil/steam-review-aspect-dataset)
 
-# Citation
+## Citation
 
 If you wish to use this dataset in your research or project, please cite this blog post: [Steam review aspect dataset](https://srec.ai/blog/steam-review-aspect-dataset) 
 
@@ -96,11 +94,11 @@ For those who need it, a BibTeX citation format also has been prepared.
 }
 ```
 
-# License
+## License
 
 Steam Review aspect dataset is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0).
 
-# Appendix A - Statistic
+## Appendix A - Statistic
 
 > Table 2. Total occurrence of each aspect
 
@@ -146,7 +144,7 @@ Steam Review aspect dataset is licensed under [Creative Commons Attribution 4.0 
 | Q3          | 1810.5         | 1753.75                | 1629.75       | 1623.5                |
 | Average     | 1408.49        | 1389.06                | 1286.12       | 1267.96               |
 
-# Appendix B - Full model benchmark
+## Appendix B - Full model benchmark
 
 > Table 6. Benchmark result for base model
 

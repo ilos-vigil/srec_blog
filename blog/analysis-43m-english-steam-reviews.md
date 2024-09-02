@@ -15,18 +15,17 @@ In the previous blog post, [I briefly analyzed 118 million reviews](https://srec
 
 ## Table of contents
 
-- [Analysis of 43 million English Steam Reviews](#analysis-of-43-million-english-steam-reviews)
-  - [Table of contents](#table-of-contents)
-  - [English Steam Review](#english-steam-review)
-  - [Types of analyzed reviews](#types-of-analyzed-reviews)
-  - [Positive negative distribution](#positive-negative-distribution)
-  - [Review length](#review-length)
-  - [Review complexity](#review-complexity)
-  - [Playtime duration at review](#playtime-duration-at-review)
-  - [Review aspect](#review-aspect)
-  - [Conclusion](#conclusion)
-  - [Appendix A - Language model training](#appendix-a---language-model-training)
-  - [Appendix B - Additional statistics](#appendix-b---additional-statistics)
+- [Table of contents](#table-of-contents)
+- [English Steam Review](#english-steam-review)
+- [Types of analyzed reviews](#types-of-analyzed-reviews)
+- [Positive negative distribution](#positive-negative-distribution)
+- [Review length](#review-length)
+- [Review complexity](#review-complexity)
+- [Playtime duration at review](#playtime-duration-at-review)
+- [Review aspect](#review-aspect)
+- [Conclusion](#conclusion)
+- [Appendix A - Language model training](#appendix-a---language-model-training)
+- [Appendix B - Additional statistics](#appendix-b---additional-statistics)
 - [References](#references)
 
 ## English Steam Review
@@ -292,7 +291,7 @@ Compared with `jina-embeddings-v2-small-en`, the pruned model has slightly bette
 | 10,001-100,000 total reviews | 13.39% (-3.31%) | 27.32% (-14.79%) | 11.23% (-3.31%) | 5.07% (-0.69%)  | 3.3% (-4.18%)    | 0.34% (-3.25%)  | 34.95% (-12.25%)              |
 | >100,000 total reviews       | 6.4% (-2.03%)   | 17.76% (-11.81%) | 6.33% (-1.88%)  | 2.34% (-0.38%)  | 2.6% (-3.22%)    | 0.27% (-2.59%)  | 21.94% (-10.81%)              |
 
-# References
+## References
 
 1. [(PDF) An Empirical Study of Game Reviews on the Steam Platform](https://www.researchgate.net/publication/324923032_An_Empirical_Study_of_Game_Reviews_on_the_Steam_Platform)
 2. [Language identification · fastText](https://fasttext.cc/docs/en/language-identification.html)

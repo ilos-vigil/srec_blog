@@ -27,17 +27,16 @@ There are some articles, blog posts, and research analyzing Steam Reviews, but m
 
 ## Table of contents
 
-- [Brief analysis of 118 million Steam Reviews](#brief-analysis-of-118-million-steam-reviews)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-  - [Playtime duration at review](#playtime-duration-at-review)
-  - [Time distribution](#time-distribution)
-  - [Additional analysis for review posted from 21-29 Nov 2022](#additional-analysis-for-review-posted-from-21-29-nov-2022)
-  - [Total reviews per user](#total-reviews-per-user)
-  - [Statistic by language](#statistic-by-language)
-  - [Steam China](#steam-china)
-  - [Next step](#next-step)
-  - [References](#references)
+- [Table of contents](#table-of-contents)
+- [Overview](#overview)
+- [Playtime duration at review](#playtime-duration-at-review)
+- [Time distribution](#time-distribution)
+- [Additional analysis for review posted from 21-29 Nov 2022](#additional-analysis-for-review-posted-from-21-29-nov-2022)
+- [Total reviews per user](#total-reviews-per-user)
+- [Statistic by language](#statistic-by-language)
+- [Steam China](#steam-china)
+- [Next step](#next-step)
+- [References](#references)
 
 ## Overview
 
